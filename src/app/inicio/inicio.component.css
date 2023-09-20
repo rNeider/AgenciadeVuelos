@@ -1,0 +1,197 @@
+/* Estilos para el navbar */
+.navbar {
+    background-color: #333;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+/* Estilos para el banner principal */
+.hero {
+    background-image: url('https://www.semana.com/resizer/EjgDb8fkCUv5fHQA9vxUEKjSKAA=/1280x720/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/TNGRKNPL55DKVPYG7VJ4WZLO3E.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    color: #fff;
+}
+
+/* Estilos para los botones */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Estilos para las tarjetas de destinos populares y promociones */
+.card {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilos para los modales (inicio de sesión y registro) */
+.modal-content {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+    background-color: #007bff;
+    color: #fff;
+    border-bottom: none;
+}
+
+.modal-title {
+    color: #fff;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 40px 0;
+}
+
+/* Estilos para el formulario de contacto */
+.form-control {
+    margin-bottom: 10px;
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-color: rgb(126, 182, 235);
+}
+
+/* Estilos para el navbar con botones */
+.navbar {
+    margin-bottom: 0;
+}
+
+/* Estilos para el navbar con botones en versión móvil */
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+/* Estilos para el navbar con botones en versión móvil cuando está abierto */
+.navbar-collapse {
+    padding: 10px;
+    background-color: #5eacffbe;
+}
+
+.navbar-collapse .navbar-nav .nav-link {
+    color: white;
+}
+.img1{
+    max-width: 180px;
+}
+.promo{
+    font-family: Arial, sans-serif;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-color: rgb(126, 182, 235);
+}
+.pp1{
+    font-family: Arial, sans-serif;
+    background-color: rgb(126, 182, 235);
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+.card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Escala la tarjeta al 105% del tamaño original */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Cambia la sombra de la tarjeta */
+}
+.star{
+    color: rgb(253, 228, 0);
+}
+h2{
+    color: white;
+}
+.letra1{
+    color: black;
+    text-align: center;
+}
+.titulo{
+    background-color: #248bf867;
+}
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #333;
+    background-color: transparent;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Estilos hover para los botones del menú */
+nav ul li a:hover {
+    background-color: #479df8e3; /* Cambia el color de fondo al azul cuando el cursor está sobre el botón */
+    color: #fff; /* Cambia el color del texto a blanco cuando el cursor está sobre el botón */
+}
+.jiker{
+    max-width: 400px;
+    margin: 0 auto; /* Esto centra el formulario horizontalmente en la página */
+    padding: 20px;
+    background-color: #67b3ffb6;
+}
+
+.jiker-form {
+    max-width: 400px;
+    margin: 0 auto; /* Esto centra el formulario horizontalmente en la página */
+    padding: 20px;
+    background-color: #007cf8;
+    border: 1px solid #67b3ff;
+    border-radius: 5px;
+}
+
+.jiker-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.jiker-group label {
+    font-weight: bold;
+    color: #555;
+}
+
+.jiker-control {
+    border-radius: 3px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.jiker-form form {
+    margin-bottom: 20px;
+}
+
+
+

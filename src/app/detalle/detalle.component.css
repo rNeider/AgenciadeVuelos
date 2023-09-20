@@ -1,0 +1,28 @@
+body {
+    background-image: url('https://caracol.com.co/resizer/sl1LS7Sx-Z7-bZPrW8O40srBWZQ=/650x488/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/prisaradioco/JI2GJZ5RFJD3JE36GFAWMYJW5I.jpg'); /* Reemplaza con la URL de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    color: #fff;
+    margin: 0; 
+    padding: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    background-color: #ffffff38;
+    max-width: 600px;
+    padding: 20px; 
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    margin-top: 20px;
+}

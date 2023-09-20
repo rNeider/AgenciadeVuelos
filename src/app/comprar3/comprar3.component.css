@@ -1,0 +1,41 @@
+body {
+    background-image: url('https://caracol.com.co/resizer/sl1LS7Sx-Z7-bZPrW8O40srBWZQ=/650x488/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/prisaradioco/JI2GJZ5RFJD3JE36GFAWMYJW5I.jpg'); /* Reemplaza con la URL de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-group label {
+    font-weight: bold;
+}
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 600px;
+    margin: 15px auto;
+    padding: 20px;
+    background-color: #429efa4d;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Agrega sombra */
+}
+
+.form-group label {
+    font-weight: bold;
+}

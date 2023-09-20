@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="detalle.component.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Selección de Detalles del Boleto de Avión</title>
+</head>
+<body>
+    <header class="header-bg">
+        <h1>Seleccione los Detalles del Boleto de Avión</h1>
+    </header>
+
+    <div class="container mt-4">
+        <form>
+            <div class="form-group">
+                <label for="origen">Origen:</label>
+                <input type="text" class="form-control" id="origen" placeholder="Ciudad de Origen">
+            </div>
+            <div class="form-group">
+                <label for="destino">Destino:</label>
+                <input type="text" class="form-control" id="destino" placeholder="Ciudad de Destino">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="fecha-salida">Fecha de Salida:</label>
+                    <input type="date" class="form-control" id="fecha-salida">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="hora-salida">Hora de Salida:</label>
+                    <input type="time" class="form-control" id="hora-salida">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="clase-vuelo">Clase de Vuelo:</label>
+                <select class="form-control" id="clase-vuelo">
+                    <option>Económica</option>
+                    <option>Premium Económica</option>
+                    <option>Clase Business</option>
+                    <option>Primera Clase</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Continuar</button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <a href="inicio.component.css"></a>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="boton1"><a class="navbar-brand" href="#">𝙣𝙚𝙞𝙙𝙚𝙧-𝘼𝙞𝙧𝙡𝙞𝙣𝙚𝙨 ✈️</a></div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/login" data-toggle="modal" data-target="#loginModal">Iniciar Sesión</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/registro" data-toggle="modal" data-target="#registroModal">Registrarse</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Banner principal -->
+    <section class="hero text-center text-white">
+        <div class="container">
+            <div class="titulo"><h1>𝐵𝒾𝑒𝓃𝓋𝑒𝓃𝒾𝒹𝑜 𝒶 𝒩𝓊𝑒𝓈𝓉𝓇𝒶 𝐸𝓂𝓅𝓇𝑒𝓈𝒶 𝒹𝑒 𝒱𝓊𝑒𝓁𝑜𝓈</h1>
+            <p>𝐸𝓍𝓅𝓁𝑜𝓇𝒶 𝓁𝑜𝓈 𝓂𝑒𝒿𝑜𝓇𝑒𝓈 𝒹𝑒𝓈𝓉𝒾𝓃𝑜𝓈 𝓎 𝓇𝑒𝓈𝑒𝓇𝓋𝒶 𝓉𝓊𝓈 𝓋𝓊𝑒𝓁𝑜𝓈 𝒸𝑜𝓃 𝓃𝑜𝓈𝑜𝓉𝓇𝑜𝓈..</p></div>
+            <a href="#destinos" class="btn btn-primary btn-lg">𝐕𝐞𝐫 𝐃𝐞𝐬𝐭𝐢𝐧𝐨𝐬</a>
+        </div>
+    </section>
+
+    <!-- Sección de Destinos Populares -->
+    <section id="destinos" class="pp1">
+        <div class="container">
+            <h2 class="text-center">𝓓𝓮𝓼𝓽𝓲𝓷𝓸𝓼 𝓜𝓪𝓼 𝓥𝓲𝓼𝓲𝓽𝓪𝓭𝓸𝓼</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://ca-times.brightspotcdn.com/dims4/default/694d0d7/2147483647/strip/false/crop/1515x1000+0+0/resize/1486x981!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fec%2F48%2F75fb9d684e1b9673520e911a8a3c%2Fun-destino-para-gozar-958578.JPG" alt="Destino 2" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Cartagena</h3>
+                            <p class="card-text">ven y disfruta de la Torre del Reloj, las murallas, las calles coloniales, y también bellezas naturales como las playas de la Boquilla, Bocagrande, Castillo Grande</p>
+                            <a routerLink="/comprar" class="btn btn-primary">𝓒𝓸𝓶𝓹𝓻𝓪𝓻</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://www.eltiempo.com/files/article_main_1200/uploads/2022/07/21/62d9784cd17ac.png" alt="Destino 2" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Medellin</h3>
+                            <p class="card-text">ven y disfruta de la cultura y paisajes</p>
+                            <a routerLink="/comprar2" class="btn btn-primary">𝓒𝓸𝓶𝓹𝓻𝓪𝓻</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://viajaconrichy.com/wp-content/uploads/2022/12/Santa-Marta-rodadero.jpg" alt="Destino 3" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Santa Marta</h3>
+                            <p class="card-text">Explora nuestras hermosas playas y prueba la mejor gastronomia en toda Colombia</p>
+                            <a routerLink="/comprar3" class="btn btn-primary">𝓒𝓸𝓶𝓹𝓻𝓪𝓻</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Promociones Especiales -->
+    <section id="promociones" class="promo">
+        <div class="container">
+            <h2 class="text-center">𝓟𝓻𝓸𝓶𝓸𝓬𝓲𝓸𝓷𝓮𝓼 𝓔𝓼𝓹𝓮𝓬𝓲𝓪𝓵𝓮𝓼</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://images.ecestaticos.com/0RGpJ3hY5shXgcdNyFAqgEuDjvM=/0x51:993x610/1200x675/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Ff38%2Fb14%2Fc18%2Ff38b14c18cb17dadacfc54c58909823a.jpg" alt="Promoción 3" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">¡Escapada de Fin de Semana!</h3>
+                            <p class="card-text">Reserva una escapada de fin de semana y disfruta de un 30% de descuento.</p>
+                            <a routerLink="/promocion" class="btn btn-primary">𝙑𝙚𝙧 𝘿𝙚𝙩𝙖𝙡𝙡𝙚𝙨</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://www.kaplaninternational.com/latam/blog/files/styles/max_1300x1300/public/wp/files/2015/04/Travel-the-world.jpg?itok=tEqJHlG-" alt="Promoción 2" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">¡Viaje al Extrangero!</h3>
+                            <p class="card-text">En el momento no contamos con estos servicios pero si con una aerolinea asociada.</p>
+                            <a href="https://www.kayak.com.co/" target="_blank" class="btn btn-primary">𝙑𝙚𝙧 𝘿𝙚𝙩𝙖𝙡𝙡𝙚𝙨</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://www.semana.com/resizer/sHumLpe808gDoidlij7GsL_tSlM=/1280x720/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/W2YZRIYUPJAZNMBEAEOO2T55DA.jpg" alt="Promoción 3" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">¡Escapada de Fin de Semana!</h3>
+                            <p class="card-text">Reserva una escapada de fin de semana y disfruta de un 15% de descuento.</p>
+                            <a routerLink="/promocion3" class="btn btn-primary">𝙑𝙚𝙧 𝘿𝙚𝙩𝙖𝙡𝙡𝙚𝙨</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Opiniones de Clientes -->
+    <section id="opiniones" class="py-5">
+        <div class="container">
+            <h2 class="text-center">𝓞𝓹𝓲𝓷𝓲𝓸𝓷𝓮𝓼</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <img src="https://img.freepik.com/vector-premium/icono-cara-avatar-hombre-joven-estilo-plano_768258-1117.jpg" class="img1 rounded-circle" alt="Cliente 1">
+                        <div class="card-body">
+                            <p class="card-text">"Excelente servicio, los vuelos siempre a tiempo y el personal muy amable."</p>
+                            <div class="rating">
+                                <!-- Estrellas para la calificación -->
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9734;</span>
+                            </div>
+                            <p class="card-text text-right">- Cliente Satisfecho</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <img src="https://img.freepik.com/vector-premium/icono-cara-avatar-hombre-joven-estilo-plano_768258-1117.jpg" class="img1 rounded-circle" alt="Cliente 1">
+                        <div class="card-body">
+                            <p class="card-text">"Excelente servicio, los vuelos siempre a tiempo y el personal muy amable."</p>
+                            <div class="rating">
+                                <!-- Estrellas para la calificación -->
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9734;</span>
+                            </div>
+                            <p class="card-text text-right">- Cliente Satisfecho</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Agrega más tarjetas de opiniones de clientes aquí -->
+            </div>
+        </div>
+        
+    </section>
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="bg-light py-5">
+        <div class="jiker">
+            <div class="container">
+                <h1>Contacto</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="correo">Correo Electrónico:</label>
+                        <input type="email" class="form-control" id="correo" placeholder="correo@ejemplo.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    

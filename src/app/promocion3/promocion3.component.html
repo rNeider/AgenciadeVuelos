@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Reserva de Vuelos</title>
+    <link rel="stylesheet" href="promocion3.component.css">
+    <!-- Incluye los archivos CSS de Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <a href="#" class="btn btn-secondary ">
+        <i class="fas fa-arrow-left"></i> Volver
+    </a>
+    <div class="container">
+        <h1 class="text-center">𝓡𝓮𝓼𝓮𝓻𝓿𝓪 𝓽𝓾 𝓿𝓾𝓮𝓵𝓸 𝓪 𝓬𝓸𝓷 𝓾𝓷 15% 𝓬𝓾𝓪𝓵𝓺𝓾𝓲𝓮𝓻 𝓬𝓲𝓾𝓭𝓪𝓭 𝓭𝓮 𝓒𝓸𝓵𝓸𝓶𝓫𝓲𝓪</h1>
+        <form action="procesar_reserva.php" method="post">
+            <div class="form-group">
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="ciudad_origen">Ciudad de origen:</label>
+                <input type="text" class="form-control" id="ciudad_origen" name="ciudad_origen" required>
+            </div>
+
+            <div class="form-group">
+                <label for="ciudad_destino">Ciudad de destino:</label>
+                <input type="text" class="form-control" id="ciudad_destino" name="ciudad_destino" required>
+            </div>
+
+            <div class="form-group">
+                <label for="fecha_salida">Fecha de salida:</label>
+                <input type="date" class="form-control" id="fecha_salida" name="fecha_salida" required>
+            </div>
+
+            <div class="form-group">
+                <label for="fecha_regreso">Fecha de regreso:</label>
+                <input type="date" class="form-control" id="fecha_regreso" name="fecha_regreso">
+            </div>
+
+            <div class="form-group">
+                <label for="num_pasajeros">Número de pasajeros:</label>
+                <input type="number" class="form-control" id="num_pasajeros" name="num_pasajeros" min="1" required>
+            </div>
+
+            <a routerLink="/reserva"><button type="button" class="btn btn-primary">Reservar Vuelo</button></a>
+        </form>
+    </div>
+
+    <!-- Incluye los archivos JavaScript de Bootstrap (opcional) -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

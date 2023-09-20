@@ -1,0 +1,71 @@
+body{
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #20a8f7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    margin-top: 100px;
+   
+}
+
+.login-container h2,p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+.boton1{
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    text-align: center;
+
+}
+.boton1:hover {
+    background-color: #0056b3; 
+}
+.separar{
+    padding: 10px;
+}
+.volver-btn {
+    position: fixed;
+    top: 10px; 
+    left: 10px; 
+    z-index: 1000; 
+}
+
+.volver-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+}
